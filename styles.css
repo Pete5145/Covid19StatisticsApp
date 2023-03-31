@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(244, 244, 244);
+}
+
+.global-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    transform: translateX(7%);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.global-container > div {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid black;
+    background-color: rgb(17, 14, 14);
+    padding: 15px;
+}
+
+.new-confirmed-stats {
+    color: red;
+    font-size: 2.3rem;
+}
+
+.total-confirmed-stats {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.new-deaths-stats {
+    color: rgb(70, 227, 70);
+    font-size: 2.3rem;
+}
+
+.total-deaths-stats {
+    color: red;
+    font-size: 2.3rem;
+}
+
+.new-recovered-stats {
+    color: white;
+    font-size: 2.3rem;
+}
+
+.total-recovered-stats {
+    color: rgb(70, 227, 70);
+    font-size: 2.3rem;
+}
+
+.total-recovered-title { 
+    color: white;
+}
+
+.new-recovered-title { 
+    color: white;
+}
+
+.total-confirmed-title{
+    color: white;
+}
+
+.total-deaths-title{
+    color: white;
+}
+
+.new-deaths-title { 
+    color: white;
+}
+
+.new-confirmed-title {
+    color: white;
+}
